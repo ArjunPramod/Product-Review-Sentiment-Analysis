@@ -12,6 +12,7 @@ from nltk.stem import WordNetLemmatizer
 # Ensure NLTK resources (you may comment these out after first run if they slow startup)
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab') 
 nltk.download('wordnet')
 
 # ------------------------
